@@ -1,6 +1,8 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SampleTest {
+	
 @Test(groups= "RegionalRegression")
 	
 	public void sampleTest()
@@ -11,6 +13,8 @@ public class SampleTest {
 public void sampleDataTest()
 {
 	System.out.println("Hello Test data");
+	
+
 }
 }
 
